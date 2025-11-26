@@ -1,0 +1,48 @@
+.header-container {
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 10px;
+  /* min-width: 350px; */
+  font-family: sans-serif;
+}
+
+.greetingSection {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* it needs to be wrap */
+.greetingDoctor {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-bottom: -3px; */
+}
+
+.calendarIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.reminder-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
+
+.reminder-section p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}

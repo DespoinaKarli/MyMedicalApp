@@ -1,0 +1,67 @@
+.MidsidebarContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 1em;
+  width: 13em;
+  font-family: sans-serif;
+}
+
+.MidTop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.MidTopSummary {
+  font-weight: bold;
+  width: 7em;
+  font-size: 1.1em;
+  margin: 2px;
+  padding: 0;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.MidTopDaysSelected {
+  color: gray;
+  font-size: 1em;
+  padding-left: 0.6em;
+  margin-top: 5px;
+}
+
+.MidTopDaysSelected span {
+  background-color: black;
+  color: white;
+  padding: 3px 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.MidBottom {
+  background-color: #2564eb33;
+  margin: 0.5em;
+  border: 1px solid #2564eb33;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.MidBottomMinimumDuty {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 0.8em;
+  margin: 3px 0;
+  padding: 0;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.MidBottomReminder {
+  margin-bottom: 0;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: 6px;
+}

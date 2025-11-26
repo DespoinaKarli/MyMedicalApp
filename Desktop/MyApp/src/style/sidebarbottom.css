@@ -1,0 +1,195 @@
+.SidebarbottonContainer {
+  width: 13em;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+
+.KeepItSimple {
+  display: flex;
+  flex-wrap: wrap;
+  width: 13em;
+  text-align: left;
+  margin-top: 5px;
+  color: gray;
+  font-size: 14px;
+}
+
+.MonthlyTargetsText {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Bottom Part */
+
+/* ONDUTY PART */
+.OnDutyText {
+  background-color: rgba(128, 128, 128, 0.192);
+  border: 1px solid rgba(128, 128, 128, 0.192);
+  border-radius: 5px;
+  width: 4em;
+  margin-left: 0.5em;
+  padding: 3px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* WEEKDAYS ONDUTY */
+.WeekdaysBoxOnDuty {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 1em 0.8em;
+}
+
+.WeekdaysTextOnDuty {
+  text-align: left;
+  padding-left: 8px;
+  color: gray;
+  font-size: 13px;
+}
+/* MIN WEEKDAYS ON DUTY */
+.MinimumOnDuty {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding-left: 8px;
+}
+
+.MinimumOnDuty p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.MinimumOnDutyInput {
+  width: 6.5em;
+  height: 1em;
+  background-color: rgba(128, 128, 128, 0.192);
+  border: 1px solid rgba(128, 128, 128, 0.192);
+}
+
+/* MAX WEEKDAYS ON DUTY */
+.MaximumOnDuty {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding-left: 8px;
+}
+
+.MaximumOnDuty p {
+  font-size: 13px;
+}
+
+.MaximumOnDutyInput {
+  width: 6.3em;
+  height: 1em;
+  background-color: rgba(128, 128, 128, 0.192);
+  border: 1px solid rgba(128, 128, 128, 0.192);
+}
+
+/* WEEKENDS ONDUTY */
+
+.WeekendsBoxOnDuty {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 1em 0.8em;
+}
+
+.WeekendsTextOnDuty {
+  text-align: left;
+  padding-left: 8px;
+  color: gray;
+  font-size: 13px;
+}
+
+/* ONCALL PART */
+
+.OnCallText {
+  background-color: rgba(128, 128, 128, 0.192);
+  border: 1px solid rgba(128, 128, 128, 0.192);
+  border-radius: 5px;
+  width: 4em;
+  margin-left: 0.5em;
+  padding: 3px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* WEEKDAYS ONCALL */
+.WeekdaysBoxOnCall {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 1em 0.8em;
+}
+
+.WeekdaysTextOnCall {
+  text-align: left;
+  padding-left: 8px;
+  color: gray;
+  font-size: 13px;
+}
+
+/* MIN WEEKDAYS ON CALL */
+
+.MinimumOnCall {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding-left: 8px;
+}
+
+.MinimumOnCall p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.MinimumOnCallInput {
+  width: 6.5em;
+  height: 1em;
+  background-color: rgba(128, 128, 128, 0.192);
+  border: 1px solid rgba(128, 128, 128, 0.192);
+}
+
+/* MAX WEEKDAYS ONCALL */
+
+.MaximumOnCall {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding-left: 8px;
+}
+
+.MaximumOnCall p {
+  font-size: 13px;
+}
+
+.MaximumOnCallInput {
+  width: 6.5em;
+  height: 1em;
+  background-color: rgba(128, 128, 128, 0.192);
+  border: 1px solid rgba(128, 128, 128, 0.192);
+}
+
+/* WEEKENDS ONCALL */
+
+.WeekendsBoxOnCall {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 1em 0.8em;
+}
+
+.WeekendsTextOnCall {
+  text-align: left;
+  padding-left: 8px;
+  color: gray;
+  font-size: 13px;
+}
+
+.BottomPartButtom {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-size: 1em;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 5px 12px;
+}
